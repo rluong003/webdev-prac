@@ -1,1 +1,1 @@
-TinDog Starting Files
+HTML/CSS/Bootstrap practice project
