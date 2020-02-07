@@ -1,0 +1,161 @@
+
+body{
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 900;
+}
+
+p{
+    color:#8f8f8f;
+}
+
+/* Section color*/
+.colored{
+    background-color: #ffaaa5;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
+.feature-title{
+    font-size: 1.5rem;
+   
+    white-space: nowrap;
+    
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
+.dog-pic{
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+    }
+
+/* Headings */
+
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+
+
+#features{
+    position: relative;
+}
+
+
+.testimonial-text{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+.feature-box{
+    padding: 4.5%;
+}
+
+
+.fas{
+    margin-bottom: 1rem;
+    color: #ffd3b6;
+  
+}
+
+.fas:hover {
+    color: #ff4c68;
+   
+}
+
+
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.navbar{
+    padding: 0 0 2.5rem;
+}
+
+
+.price-text{
+
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.golden-ret{
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+#press{
+    padding-bottom: 3%;
+    
+}
+
+.p-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+#pricing{
+    padding: 100px;
+
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+
+
+#cta button{
+    margin-right: 20px;
+}
+
+
+.fab{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 1028px) {
+
+    #title{
+        text-align: center;
+    }
+    .dog-pic{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
