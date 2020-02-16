@@ -1,4 +1,3 @@
-
 exports.getDate = function(){
 
 let today = new Date();
